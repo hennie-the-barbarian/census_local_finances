@@ -2,9 +2,8 @@ CREATE TABLE IF NOT EXISTS fips_county_info (
     county_code char(3),
     county_name text,
     state_code char(2),
-    CONSTRAINT fk_state_code
-        FOREIGN KEY(state_code) 
-	        REFERENCES fips_state_info(state_code)
+    FOREIGN KEY(state_code) REFERENCES fips_state_info(state_code),
+    PRIMARY KEY(state_code, county_code)
 );
 
 INSERT INTO fips_county_info (state_code, county_code, county_name)

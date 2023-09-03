@@ -36,6 +36,11 @@ with open('2019-geocodes-raw.csv', 'r') as raw_geocodes:
                 line_data[1],
                 line_data[6].strip()
             ))
+            counties_sql.write("    ('{}', '{}', '{}'),\n".format(
+                line_data[1],
+                line_data[2],
+                line_data[6].strip().replace("'", "''")
+            ))
         ### If line is for a county
         if line_data[0] == '050':
             counties_sql.write("    ('{}', '{}', '{}'),\n".format(
@@ -60,17 +65,16 @@ VALUES
 
 with open('2021-govt-units.sql', 'w') as govt_units_sql:
     govt_units_sql.write(govt_units_sql_header)
-    govt_units_sql_stub = "    ('{state_code}', '{county_code}', '{pid6_id_code}', '{fips_place_code}', '{place_name}', '{population}'),\n"
-    with open('Govt_Units_2021_Final.csv', 'r') as govt_units_csv:
-        govt_units_csv_reader = csv.reader(govt_units_csv.readlines())
-        next(govt_units_csv_reader, None)
-        for govt_unit in govt_units_csv_reader:
-            state_code = govt_unit[14]
-            county_code = govt_unit[15]
-            pid6 = govt_unit[0]
-            place_name = govt_unit[2]
-            fips_place_code = govt_unit[16]
-            population = int(govt_unit[12].replace(",", ""))
+    govt_units_sql_stub = "    ('{state_code}', {county_code}, '{pid6_id_code}', '{fips_place_code}', '{place_name}', '{population}'),\n"
+    with open('2020_fin_pid.txt', 'r') as govt_units_txt:
+        for govt_unit in govt_units_txt.readlines():
+            state_code = govt_unit[:2]
+            county_code = "'{}'".format(govt_unit[3:6]) if state_code != '09' else 'Null'
+            pid6 = govt_unit[6:12]
+            place_name = govt_unit[12:76].strip()
+            fips_place_code = govt_unit[111:116]
+            population = govt_unit[116:125].strip()
+            population = int(population) if population else 0
             sql_to_write = govt_units_sql_stub.format(
                 state_code=state_code, 
                 county_code=county_code,
@@ -95,7 +99,7 @@ with open('expense_codes_2006_manual.txt', 'r') as expense_items_txt:
         for line in expense_items_txt.readlines():
             expense = line.strip().split('|')
             expense_items_sql.write("    ('{}', '{}'),\n".format(
-                expense[0].replace("'", "''"), 
+                expense[0],
                 expense[1].strip().replace("'", "''")))
 
 local_state_govt_expenses_sql_header = """CREATE TABLE IF NOT EXISTS local_state_govt_expenses (
@@ -112,16 +116,14 @@ local_state_govt_expenses_sql_header = """CREATE TABLE IF NOT EXISTS local_state
 INSERT INTO local_state_govt_expenses (state_code, county_code, pid6_place, expense_code, amount)
 VALUES
 """
-local_state_govt_expenses_stub = "    ('{state_code}', '{county_code}', '{pid6_place}', '{expense_code}', '{amount}'),\n"
+local_state_govt_expenses_stub = "    ('{state_code}', {county_code}, '{pid6_place}', '{expense_code}', '{amount}'),\n"
 with open('2021_fin_est_dat.txt', 'r') as local_state_govt_expenses_txt:
     with open('2021_fin_est_dat.sql', 'w') as local_state_govt_expenses_sql:
         local_state_govt_expenses_sql.write(local_state_govt_expenses_sql_header)
         for line in local_state_govt_expenses_txt.readlines():
             if line[2] != "0":
                 state_code = line[:2].strip()
-                if len(state_code) > 2:
-                    print(state_code)
-                county_code = line[3:6]
+                county_code = "'{}'".format(line[3:6]) if state_code != '09' else 'Null'
                 pid6_place = line[6:12]
                 expense_code = line[12:15]
                 amount = int(line[15:27])

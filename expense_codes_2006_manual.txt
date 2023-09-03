@@ -1,44 +1,52 @@
-A01|Air Transportation
-A03|Miscellaneous Commercial Activities
-A06|Nat. Defense/Int’National Relations
-A09|El-Sec Education School Lunch
-A10|El-Sec Education School Tuition
-A12|Other El-Sec Education
-A14|Federal Postal Service
-A16|Higher Ed. Auxiliary Enterprises
-A18|Other Higher Education
-A21|Federal and State Ed. Charges NEC
-A36|Public Hospitals
-A44|Regular Highways
-A45|Toll Highways
-A50|Housing and Community Develop.
-A56|Federal and State Forestry
-A59|Other Natural Resources
-A60|Parking Facilities
-A61|Parks and Recreation
-A80|Sewerage
-A81|Solid Waste Management
-A87|Sea and Inland Port Facilities
-A89|All Other General Current Charges
-A90|Liquor Store Revenue
-A91|Water Supply Systems
-A92|Electric Power Systems
-A93|Gas Supply Systems
-A94|Public Mass Transit Systems
-B01|Air Transportation
-B21|Education
-B30|General Local Government Support
-B42|Health and Hospitals
-B46|Highways
-B50|Housing and Community Develop.
-B59|Natural Resources
-B79|Public Welfare
-B80|Sewerage
-B89|All Other
-B91|Water Supply Systems
-B92|Electric Power Systems
-B93|Gas Supply Systems
-B94|Public Mass Transit Systems
+19T|Beg LTD O/S-NG-public debt for private purpose
+19U|Beg LT Debt O/S NEC
+24T|LTD Iss-NG-public debt for private purpose
+29U|LTD ISS-Unsp-Other NEC
+34T|LTD Ret-NG-public debt for private purpose
+39U|LTD Ret-Unsp-Other NEC
+44T|LT Dbt O/S-NG-Industrial Rev
+49U|LTD Debt O/S-Unsp-Other NEC
+61V|Short Term Debt O/S-Beginning
+64V|Short Term Debt O/S-End of FY
+A01|Air Transportation Charges
+A03|Misc Comrcial Act NEC Charges
+A09|Elem Sec Ed Sch Lunch Charges
+A10|Elem Sec Educ Tuition and Transportation Charges
+A12|Elem Sec Educ NEC Charges
+A16|Higher Educ Auxiliary Charges
+A18|Higher Educ Tuition Charges
+A21|Education Other State Charges NEC
+A36|Hospital Charges
+A44|Regular Highway Charges
+A45|Toll Highway Charges
+A50|Housing & Comm Dev Charges
+A59|Nat Resources NEC Charges
+A60|Parking Facilities Charges
+A61|Parks & Recreation Charges
+A80|Sewerage Charges
+A81|Solid Waste Charges
+A87|Water Trans & Terminal Charges
+A89|All Other NEC Charges
+A90|Liquor Stores Revenue
+A91|Water Utilities Revenue
+A92|Electric Utilities Revenue
+A93|Gas Utilities Revenue
+A94|Transit Utilities Revenue
+B01|Federal IG Air Transportation
+B21|Federal IG Education
+B22|Federal IG Emp Security Admin 1/
+B30|Federal IG General Support
+B42|Federal IG Health & Hospitals
+B46|Federal IG Highways
+B50|Fed IG Housing & Comm Dev
+B59|Fed IG Other Natural Resources
+B79|Fed IG Public Welfare
+B80|Federal IG Sewerage
+B89|Federal IG Other
+B91|Federal IG Water Utilities
+B92|Federal IG Electric Utilities
+B93|Federal IG Gas Utilities
+B94|Federal IG Transit Utilities
 C21|State IG Education
 C30|State IG Other General Support
 C42|State IG Health & Hospitals
@@ -51,492 +59,254 @@ C91|State IG Water Utilities
 C92|State IG Electric Utilities
 C93|State IG Gas Utilities
 C94|State IG Transit Utilities
-D11|Interschool System Revenue
-D21|Education
-D30|General Local Government Support
-D42|Health and Hospitals
-D46|Highways
-D79|Public Welfare
-D80|Sewerage
-D89|All Other
-D91|Water Supply Systems
-D92|Electric Power Systems
-D93|Gas Supply Systems
-D94|Public Mass Transit Systems
-E01|Air Transportation
-E02|Federal Space Research and Technology
-E03|Miscellaneous Commercial Activities NEC
-E04|Correctional Institutions
-E05|Other Corrections
-E06|Nat. Defense/Int’National Relations
-E12|El-Sec Education
-E14|Federal Postal Services
-E16|Higher Ed. Auxiliary Enterprises
-E18|Other Higher Education
-E20|Federal Veterans Education Benefits
-E21|Federal and State Other Education
-E23|Financial Administration
-E24|Local Fire Protection
-E25|Judicial and Legal
-E26|Federal and State Legislative
-E28|Federal Veterans’ Health
-E29|Central Staff Services
-E31|General Public Buildings
-E32|Health
-E36|Hospitals
-E37|Federal Own Hospitals – Veterans
-E39|Federal Other Hospitals – Veterans
-E44|Regular Highways
-E45|Toll Highways
-E50|Housing and Community Development
-E51|Federal Farm Credit Programs
-E52|Libraries
-E53|Federal Farm Income Stabilization
-E55|State Fish and Game
-E56|Federal and State Forestry
-E57|Federal Soil, Water, and Electric Resource
-E58|Federal Mineral Resources
-E59|Natural Resources, Other
-E60|Parking Facilities
-E61|Parks and Recreation
-E62|Police Protection
-E66|Protective Inspection and Regulation NEC
-E74|Vendor Payments for Medical Care
-E75|Vendor Payments for Other Purposes
-E77|Public Welfare – Institutions
-E79|Public Welfare – Other
-E80|Sewerage
-E81|Solid Waste Management
-E85|Federal and State Veterans’ Services
-E87|Sea and Inland Port Facilities
-E89|Other and Unallocable
-E90|Liquor Stores
-E91|Water Supply
-E92|Electric Supply
-E93|Gas Supply
-E94|Public Mass Transit Systems
-F01|Air Transportation
-F02|Federal Space Research and Technology
-F03|Miscellaneous Commercial Activities NEC
-F04|Correctional Institutions
-F05|Other Corrections
-F06|Nat. Defense/Int’National Relations
-F12|El-Sec Education
-F14|Federal Postal Services
-F16|Higher Ed. Auxiliary Enterprises
-F18|Other Higher Education
-F20|Federal Veterans Education Benefits
-F21|Federal and State Other Education
-F23|Financial Administration
-F24|Local Fire Protection
-F25|Judicial and Legal
-F26|Federal and State Legislative
-F28|Federal Veterans’ Health
-F29|Central Staff Services
-F31|General Public Buildings
-F32|Health
-F36|Hospitals
-F37|Federal Own Hospitals – Veterans
-F39|Federal Other Hospitals – Veterans
-F44|Regular Highways
-F45|Toll Highways
-F50|Housing and Community Development
-F52|Libraries
-F53|Federal Farm Income Stabilization
-F55|State Fish and Game
-F56|Federal and State Forestry
-F57|Federal Soil, Water, and Electric Resource
-F58|Federal Mineral Resources
-F59|Natural Resources, Other
-F60|Parking Facilities
-F61|Parks and Recreation
-F62|Police Protection
-F66|Protective Inspection and Regulation NEC
-F77|Public Welfare – Institutions
-F79|Public Welfare – Other
-F80|Sewerage
-F81|Solid Waste Management
-F85|Federal and State Veterans’ Services
-F87|Sea and Inland Port Facilities
-F89|Other and Unallocable
-F90|Liquor Stores
-F91|Water Supply
-F92|Electric Supply
-F93|Gas Supply
-F94|Public Mass Transit
-G01|Air Transportation
-G02|Federal Space Research and Technology
-G03|Miscellaneous Commercial Activities NEC
-G04|Correctional Institutions
-G05|Other Corrections
-G06|Nat. Defense/Int’National Relations
-G12|El-Sec Education
-G14|Federal Postal Services
-G16|Higher Ed. Auxiliary Enterprises
-G18|Other Higher Education
-G20|Federal Veterans Education Benefits
-G21|Federal and State Other Education
-G23|Financial Administration
-G24|Local Fire Protection
-G25|Judicial and Legal
-G26|Federal and State Legislative
-G28|Federal Veterans’ Health
-G29|Central Staff Services
-G31|General Public Buildings
-G32|Health
-G36|Hospitals
-G37|Federal Own Hospitals – Veterans
-G39|Federal Other Hospitals – Veterans
-G44|Regular Highways
-G45|Toll Highways
-G50|Housing and Community Development
-G52|Libraries
-G53|Federal Farm Income Stabilization
-G55|State Fish and Game
-G56|Federal and State Forestry
-G57|Federal Soil, Water, and Electric Resource
-G58|Federal Mineral Resources
-G59|Natural Resources, Other
-G60|Parking Facilities
-G61|Parks and Recreation
-G62|Police Protection
-G66|Protective Inspection and Regulation NEC
-G77|Public Welfare – Institutions
-G79|Public Welfare – Other
-G80|Sewerage
-G81|Solid Waste Management
-G85|Federal and State Veterans’ Services
-G87|Sea and Inland Port Facilities
-G89|Other and Unallocable
-G90|Liquor Stores
-G91|Water Supply
-G92|Electric Supply
-G93|Gas Supply
-G94|Public Mass Transit
-I89|Interest on General Debt
-I91|Interest on Water Utility Debt
-I92|Interest on Electric Power Debt
-I93|Interest on Gas Supply Debt
-I94|Interest on Public Mass Transit Debt
-J01|Air Transportation
-J02|Federal Space Research and Technology
-J04|Correctional Institutions
-J06|Nat. Defense/Int’National Relations
-J14|Federal Postal Services
-J19|State Scholarships and Subsidies, Ed
-J20|Federal Veterans Education Benefits
-J21|Federal and State Other Education
-J22|Social Insurance Administration
-J23|Financial Administration
-J25|Judicial and Legal
-J28|Federal Veterans’ Health
-J29|Central Staff Services
-J32|Health
-J36|Hospitals
-J37|Federal Own Hospitals – Veterans
-J39|Federal Other Hospitals – Veterans
-J44|Regular Highways
-J50|Housing and Community Development
-J51|Federal Farm Credit Programs
-J52|Libraries
-J53|Federal Farm Income Stabilization
-J56|Federal and State Forestry
-J57|Federal Soil, Water, and Electric Resource
-J58|Federal Mineral Resource
-J59|Natural Resources, Other
-J61|Parks and Recreation
-J62|Police Protection
-J67|Federal Categorical Assistance Programs
-J68|Other Cash Assistance Programs
-J79|Public – Welfare Other
-J85|Federal and State Veterans’ Services
-J87|Sea and Inland Port Facilities
-J89|Other and Unallocable
-K01|Air Transportation
-K02|Federal Space Research and Technology
-K03|Miscellaneous Commercial Activities NEC
-K04|Correctional Institutions
-K05|Other Corrections
-K06|Nat. Defense/Int’National Relations
-K12|El-Sec Education
-K14|Federal Postal Services
-K16|Higher Ed. Auxiliary Enterprises
-K18|Other Higher Education
-K20|Federal Veterans Education Benefits
-K21|Federal and State Other Education
-K22|Social Insurance Administration
-K23|Financial Administration
-K25|Judicial and Legal
-K26|Federal and State Legislative
-K28|Federal Veterans’ Health
-K29|Central Staff Services
-K31|General Public Buildings
-K32|Health
-K36|Hospitals
-K37|Federal Own Hospitals – Veterans
-K39|Federal Other Hospitals – Veterans
-K44|Regular Highways
-K45|Toll Highways
-K50|Housing and Community Development
-K52|Libraries
-K53|Federal Farm Income Stabilization
-K55|State Fish and Game
-K56|Federal and State Forestry
-K57|Federal Soil, Water, and Electric Resource
-K58|Federal Mineral Resources
-K59|Natural Resources, Other
-K60|Parking Facilities
-K61|Parks and Recreation
-K62|Police Protection
-K66|Protective Inspection and Regulation NEC
-K77|Public Welfare – Institutions
-K79|Public Welfare – Other
-K80|Sewerage
-K81|Solid Waste Management
-K85|Federal and State Veterans’ Services
-K87|Sea and Inland Port Facilities
-K89|Other and Unallocable
-K90|Liquor Stores
-K91|Water Supply
-K92|Electric Supply
-K93|Gas Supply
-K94|Public Mass Transit
-L01|Air Transportation
-L02|Federal Space Research and Technology
-L04|Correctional Institutions
-L05|Other Corrections
-L12|El-Sec Education
-L18|Other Higher Education
-L20|Federal Veterans Education Benefits
-L21|Federal and State Other Education
-L22|Social Insurance Administration
-L23|Financial Administration
-L25|Judicial and Legal
-L28|Federal Veterans’ Health
-L29|Central Staff Services
-L32|Health
-L36|Hospitals
-L37|Federal Own Hospitals – Veterans
-L39|Federal Other Hospitals – Veterans
-L44|Regular Highways
-L51|Federal Farm Credit Programs
-L52|Libraries
-L53|Federal Farm Income Stabilization
-L56|Federal and State Forestry
-L57|Federal Soil, Water, and Electric Resource
-L58|Federal Mineral Resource
-L59|Natural Resources – Other
-L60|Parking Facilities
-L61|Parks and Recreation
-L62|Police Protection
-L66|Protective Inspection and Regulation NEC
-L67|Federal Categorical Assistance Programs
-L79|Public Welfare – Other
-L80|Sewerage
-L81|Solid Waste Management
-L87|Sea and Inland Port Facilities
-L89|Other and Unallocable
-L91|Water Supply
-L92|Electric Power
-L93|Gas Supply
-L94|Public Mass Transit
-M01|Air Transportation
-M02|Federal Space Research and Technology
-M04|Correctional Institutions
-M05|Other Corrections
-M12|El-Sec Education
-M18|Other Higher Education
-M20|Federal Veterans Education Benefits
-M21|Federal and State Other Education
-M22|Social Insurance Administration
-M23|Financial Administration
-M24|Local Fire Protection
-M25|Judicial and Legal
-M28|Federal Veterans’ Health
-M29|Central Staff Services
-M30|General Local Government Support
-M32|Health
-M36|Hospitals
-M37|Federal Own Hospitals – Veterans
-M39|Federal Other Hospitals – Veterans
-M44|Regular Highways
-M50|Housing and Community Development
-M51|Federal Farm Credit Programs
-M52|Libraries
-M53|Federal Farm Income Stabilization
-M55|State Fish and Game
-M56|Federal and State Forestry
-M57|Federal Soil, Water, and Electric Resource
-M58|Federal Mineral Resource
-M59|Natural Resources – Other
-M60|Parking Facilities
-M61|Parks and Recreation
-M62|Police Protection
-M66|Protective Inspection and Regulation NEC
-M67|Federal Categorical Assistance Programs
-M68|Other Cash Assistance Programs
-M79|Public Welfare – Other
-M80|Sewerage
-M81|Solid Waste Management
-M87|Sea and Inland Port Facilities
-M89|Other and Unallocable
-M91|Water Supply
-M92|Electric Power
-M93|Gas Supply
-M94|Public Mass Transit
-Q12|El-Sec Education
-Q18|Other Higher Education
-S89|Other and Unallocable
-T01|Property Taxes
-T08|Federal Customs Duties
-T09|General Sales and Gross Receipts Taxes
-T10|Alcoholic Beverages
-T11|Amusements
-T12|Insurance Premiums
-T13|Motor Fuels
-T14|Pari-mutuels
-T15|Public Utilities
-T16|Tobacco Products
-T19|Other Selective Sales and Gross Receipts
-T20|Alcoholic Beverages
-T21|Amusements
-T22|Corporations in General
-T23|Hunting and Fishing
-T24|Motor Vehicles
-T25|Motor Vehicle Operators
-T27|Public Utilities
-T28|Occupation and Businesses NEC
-T29|Other License Taxes
-T40|Individual Income Taxes
-T41|Corporation Net Income Taxes
-T50|Death and Gift Taxes
-T51|Documentary and Stock Transfer Taxes
-T53|Severance Taxes
-T99|Taxes NEC
+D11|School Intergovernmental - Interschool System
+D21|Local IG Education
+D30|Local IG General Support
+D42|Local IG Health & Hospitals
+D46|Local IG Highways
+D50|Local IG Housing & Comm Dev
+D79|Local IG Public Welfare
+D80|Local IG Sewerage
+D89|Local IG Other
+D91|Local IG Water Utilities
+D92|Local IG Electric Utilities
+D93|Local IG Gas Utilities
+D94|Local IG Transit Utilities
+E01|Air Trans Current Operation
+E03|Misc Comm Act-Current Oper
+E04|Correction Insts-Current Oper
+E05|Correction NEC-Current Oper
+E12|Elem Sec Educ-Current Oper
+E16|Higher Education-Aux-Cur Oper
+E18|Higher Educ Current Operation
+E21|State Education-NEC-Current Oper
+E22|Employment Sec Admin-Cur Op 1/
+E23|Financial Adm-Curr Operation
+E24|Local Fire Protection Curr Operation
+E25|Judicial-Current Operation
+E29|Central Staff-Curr Operation
+E31|General Public Bldg-Curr Oper
+E32|Health-Current Operation
+E36|Hospitals-Current Oper
+E44|Regular Highways-Current Oper
+E45|Toll Highways-Current Oper
+E50|Housing & Comm Dev-Curr Oper
+E52|Libraries-Current Operation
+E59|Natural Resources NEC-Cur Op
+E60|Parking-Current Operation
+E61|Parks & Rec-Current Operation
+E62|Police Protection-Current Oper
+E66|Protective Inspection-Curr Op
+E74|Welfare-Vendor Payments-Med
+E75|Welfare-Vendor Payments-NEC
+E77|Welfare Insts-Curr Operation
+E79|Welfare NEC-Current Operation
+E80|Sewerage-Current Operation
+E81|Solid Waste Mgt - Current Oper
+E85|State Veterans' Assistance-Current Op
+E87|Water Transport-Current Oper
+E89|General NEC-Current Operation
+E90|Liquor Stores-Current Oper
+E91|Water Utilities-Current Oper
+E92|Electric Utilities-Current Op
+E93|Gas Utilities-Current Oper
+E94|Transit Utilities-Current Op
+F01|Air Trans Construction
+F03|Misc Comm Act-Construction
+F04|Correction Insts-Construction
+F05|Correction-NEC-Construction
+F12|Elem Sec Educ-Construction
+F16|Higher Education-Aux-Constr
+F18|Higher Educ Construction
+F21|State Education-NEC-Construction
+F22|Employment Sec Adm-Const
+F23|Financial Adm-Construction
+F24|Local Fire Protection Construction
+F25|Judicial-Construction
+F29|Central Staff-Construction
+F31|General Public Bldg-Constr
+F32|Health-Construction
+F36|Hospitals-Construction
+F44|Regular Highways-Construction
+F45|Toll Highways-Construction
+F50|Housing & Comm Dev-Constr
+F52|Libraries-Construction
+F59|Natural Resources NEC-Constr
+F60|Parking-Construction
+F61|Parks & Rec-Construction
+F62|Police Protection-Construction
+F66|Protective Inspection-Constr
+F77|Welfare Insts-Construction
+F79|Welfare NEC-Construction
+F80|Sewerage-Construction
+F81|Solid Waste Mgt-Construction
+F85|State Veterans' Assistance-Construction
+F87|Water Transport-Construction
+F89|General NEC-Construction
+F90|Liquor Stores-Construction
+F91|Water Utilities-Construction
+F92|Electric Utilities-Constr
+F93|Gas Utilities-Construction
+F94|Transit Utilities-Construction
+G01|Air Trans Other Capital Outlay
+G03|Misc Comm Act-Other Cap
+G04|Correction Insts-Other Cap Out
+G05|Correction-NEC-Other Cap Out
+G12|Elem Sec Educ-Other Cap Outlay
+G16|Higher Education-Aux-Other Cap
+G18|Higher Educ Other Capital Out
+G21|State Education-NEC-Other Cap Out
+G22|Employment Sec Admin-Other Cap
+G23|Financial Adm-Other Cap Outlay
+G24|Local Fire Proction Other Cap Outlay
+G25|Judicial-Other Capital Outlay
+G29|Central Staff-Other Cap Out
+G31|General Public Bldg-Other Cap
+G32|Health-Other Capital Outlay
+G36|Hospitals-Other Cap Out
+G44|Regular Highways-Other Cap Out
+G45|Toll Highways-Other Cap Outlay
+G50|Housing & Comm Dev-Other Cap
+G52|Libraries-Other Capital Outlay
+G59|Natural Resource NEC-Other Cap
+G60|Parking-Other Capital Outlay
+G61|Parks & Rec-Other Capital Out
+G62|Police Protection-Othr Cap Out
+G66|Protective Inspec-Othr Cap Out
+G77|Welfare Insts-Other Cap Outlay
+G79|Welfare NEC-Other Capital Out
+G80|Sewerage-Other Capital Outlay
+G81|Solid Waste Mgt-Other Cap Out
+G85|State 'Veterans' Assistance-Other Cap Out
+G87|Water Transport-Other Cap out
+G89|General NEC-Other Capital Out
+G90|Liquor Stores-Other Cap Out
+G91|Water Utilities-Other Cap Out
+G92|Electric Utilities-Other Cap
+G93|Gas Utilities-Other Cap Out
+G94|Transit Utilities-Othr Cap Out
+I89|General Interest on Debt
+I91|Water Utilities-Interest
+I92|Electric Utilities-Interest
+I93|Gas Utilities-Interest on Debt
+I94|Transit Utilities-Interest
+J19|Scholarships & Other Subsidies
+J67|Welfare-Categorical Cash Asst
+J68|Welfare-Cash Assistance
+L01|Air Trans IG to State
+L04|Correctional Instituions IG to State
+L05|Correction-NEC-IG to State
+L12|Elem Sec Educ-IG to State
+L18|Higher Education IG to State
+L23|Financial Adm-IG to State
+L25|Judicial-IG to State
+L29|Central Staff-IG to State
+L32|Health-IG to State
+L36|Hospitals-IG to State
+L44|Regular Highways-IG to State
+L50|Housing & Comm Dev-IG to State
+L52|Libraries-IG to State
+L59|Natural Res NEC-IG to State
+L60|Parking-IG to State
+L61|Parks & Recreation-IG to State
+L62|Police Protection-IG to State
+L66|Protective Insp-IG to State
+L67|Welfare-Categorical-IG to St
+L79|Welfare NEC-IG to State
+L80|Sewerage-IG to State
+L81|Solid Waste Mgt-IG to State
+L87|Water Transport-IG to State
+L89|General NEC-IG to State
+L91|Water Utilities-IG to State
+L92|Elec Utilities-IG to State
+L93|Gas Utilities-IG to State
+L94|Transit Utilities-IG to State
+M01|Air Trans IG to Local NEC
+M04|Correctional Instituions IG to Local
+M05|Correction-NEC-IG to Local NEC
+M12|Elem Sec Educ-IG to Local NEC
+M18|Higher Educ IG to Local NEC
+M21|State Education-NEC-IG to Local NEC
+M23|Financial Adm-IG-Local NEC
+M24|Fire Protect IG to Local NEC
+M25|Judicial-IG to Local NEC
+M29|Central Staff-IG to Local NEC
+M30|General Support-IG-Local NEC
+M32|Health-IG to Local NEC
+M36|Hospitals-IG to Local
+M44|Regular Highways-IG-Local Nec
+M50|Housing & Comm Dev-IG-Loc NEC
+M52|Libraries-IG to Local NEC
+M59|Natural Rec NEC-IG-Local NEC
+M60|Parking-IG to Local NEC
+M61|Parks & Rec-IG to Local NEC
+M62|Police Protect-IG to Local NEC
+M66|Protective Insp-IG-Local Nec
+M67|Welfare-Categorical-IG to Loc
+M68|Welfare-Cash-IG-Local NEC
+M79|Welfare NEC-IG to Local NEC
+M80|Sewerage-IG to Local NEC
+M81|Solid Waste Mgt-IG to Locl NEC
+M87|Water Transport-IG-Local NEC
+M89|General NEC-IG-Local NEC
+M91|Water Utilities-IG to Local
+M92|Elec Utilities-IG to Local
+M93|Gas Utilities-IG to Local
+M94|Transit Utilities-IG to Local
+Q12|Elem Sec Educ-State IG to Sch Dists (Was this ever decided?)
+Q18|Higher Educ State IG to Sch Dists
+S67|Welfare-Categorical-IG to Fed
+S89|General NEC-IG to Federal
+T01|Property Tax
+T09|Total General Sales Taxes
+T10|Alcoholic Beverage Sales Tax
+T11|Amusement Tax
+T12|Insurance Premium Tax
+T13|Motor Fuels Sales Tax
+T14|Parimutuels Tax
+T15|Public Utilities Tax
+T16|Tobacco Sales Tax
+T19|Other Selective Sales Taxes
+T20|Alcoholic Beverage License Tax
+T21|Amusement License Tax
+T22|Corporation License Tax
+T23|Hunting & Fishing License
+T24|Motor Vehicle License
+T25|Motor Vehicle Operators Lic
+T27|Public Utility License Tax
+T28|Occup & Business License, NEC
+T29|Other License Tax
+T40|Indiv Income Tax
+T41|Corporation Net Income Tax
+T50|Death & Gift Tax
+T51|Documentary & Stock Trans Tax
+T53|Severance Tax
+T99|Taxes, NEC
 U01|Special Assessments
-U11|Sale of Property
+U11|Sale of Property 2/
 U20|Interest Earnings
-U21|State - Other Dividends
-U30|Fines and Forfeits
+U30|Fines & Forfeits
 U40|Rents
 U41|Royalties
-U50|Donations from Private Sources
+U50|Donations From Private Sources
 U95|Net Lottery Revenue
-U99|Miscellaneous General Revenue NEC
-V01|Description of System
-V02|Type of Coverage
-V03|Basis of Membership and Participation
-V04|Employee Contribution Status
-V05|Optional Benefits Available
-V07|Time Required to Vest
-V87|State Contributions to Own System
-V98|Total Capital Outlay
-W01|Cash and Security – Sinking Funds
-W31|Cash and Security – Bond Funds
-W61|Cash and Security – All Other Funds
-X01|Contributions, Local Employees
-X02|Contributions, State Employees
-X03|Contributions, Federal Employees
-X04|From Parent Local Government
-X05|Contributions from Other Governments
-X06|State Contributions to Own System, Total
-X08|Earnings on Investment
-X11|Benefit Payments
-X12|Withdrawals
-X21|Total Cash and Short-Term Investments
-X30|Total Federal Government Securities
-X33|Federal Agency Securities
-X35|State and Local Government Securities
-X42|Mortgages Held Directly
-X44|Total Other Securities
-X46|Real Property
-X47|Other Investments
-X99|Interest on U.S. Securities
-Y10|Contributions to Own System
-Y11|Contributions
-Y12|Earnings on Investment
-Y14|Benefit Payments
-Y15|Administrative Expenses
-Y20|Federal Social Security and Medicare
-Y21|Total Cash and Security Holdings
-Y22|Interest on U.S. Securities
-Y25|Benefit Payments
-Y31|Federal Veterans’ Life Insurance
-Y32|Interest on U.S. Securities
-Y34|Benefit Payments
-Y41|Federal Railroad Retirement
-Y42|Interest on U.S. Securities
-Y45|Benefit Payments
-Y50|Contributions to Own System
-Y51|Contributions
-Y52|Earnings on Investment
-Y53|Benefit and Withdrawal Payments
-Y54|Administrative Expenses
-Y61|Cash and Security Holdings
-Y99|Interest on U.S. Securities
-Z00|Total Salary and Wages
-Z01|Number of Active Members
-Z02|Number of Inactive Members
-Z03|Beneficiaries Retired, Age or Service
-Z04|Beneficiaries Retired, Disability
-Z05|Beneficiaries, Survivors
-Z06|Lump-sum Payments, Members
-Z07|Lump-sum Payments, Survivors
-Z08|Monthly Amount Paid, to Retirees
-Z09|Monthly Amount Paid, Disability
-Z10|Monthly Amount Paid, Survivors
-Z11|Monthly Amount Paid, Lump, Members
-Z12|Monthly Amount Paid, Lump, Survivors
-Z13|Retirement Benefits
-Z14|Disability Benefits
-Z15|Survivor Benefits
-Z16|Other Benefits
-Z41|Net Sales of Goods
-Z42|Cost of Goods Sold
-Z43|Operating Expenses
-Z44|Other Income
-Z45|Nonoperating Expenses
-Z46|Transfers to General Fund – Gross
-Z47|Expenditure for Licensing and Enforcing
-Z48|Sales Taxes, Licenses, and Permits
-Z62|Corporate Bonds, Federally-Spon. Agency
-Z63|Corporate Bonds, Other
-Z68|All Other Short-term Investments
-Z70|Foreign and International Securities
-Z71|Interest Earnings
-Z72|Dividend Earnings
-Z73|Other Investment Earnings
-Z75|Active Members Employed, Local
-Z76|Active Members Employed, State
-Z77|Total Corporate Bonds
-Z78|Corporate Stocks
-Z81|Total Holdings and Investments
-Z82|Total Other Investments
-Z83|Other Securities
-Z84|Investment Held in Trust by Other Agency
-Z87|Time or Savings Deposits
-Z88|Cash on Hand and Demand Deposits
-Z89|Federal Treasury Securities
-Z91|Losses on Investments
-Z93|Administrative Expenses
-Z95|Other Receipts NEC
-Z96|Gains on Investments
-Z98|Rentals from State Government
-Z99|State Contributions to Own System
-19T|Beginning Debt, Public Debt for Private
-19U|Beginning Long-term Debt, Public
-24T|Debt Issued, Public Debt for Private
-29U|Debt Issued, Public Purpose
-34T|Debt Retired, Public Debt for Private
-39U|Debt Retired, Public Purpose
-41I|Increase in Debt During Fiscal Year
-41Q|Obligations of the U.S. Treasury
-41V|Outstanding Held by Federal Accounts
-41W|Obligations of Federal Agencies
-41Y|Held Outside Federal Government
-44T|Debt Outstanding, Public Debt for Private
-49U|Debt Outstanding, Public Purpose
-52T|Refunding Bonds Issues
-53T|Debt Retired by Refunding
-61V|Short-term Debt Beginning
-64V|Short-term Debt Ending
+U99|Misc General Revenue NEC
+W01|Sinking Fund-Cash & Deposits
+W31|Bond Fund-Cash & Deposits
+W61|Other Funds-Cash & Deposits
+Y01|Unemployment-Contribution
+Y02|Unemployment-Interest Revenue
+Y04|Unemployment-Federal Advances
+Y05|Unemployment-Benefit Payments
+Y06|Unemployment-Ext & Spec Pmts
+Y07|Unemployment-Bal In US Treas
+Y08|Unempl-Other Bal-Pos or Neg
+Y11|Workers Comp-Other Contribs
+Y12|Workers Comp-Interest Earnings
+Y14|Workers Comp-Benefit Pmts
+Y21|'Workers Comp-Cash & Assets
+Y51|Other In Trst-Other Ctrb
+Y52|Other In Trust-Interest Rev
+Y53|Other Ins Trst-Benefit Paymts
+Y61|Other Ins Trust-Cash&Deposits
+Z00|Total Salaries & Wages
